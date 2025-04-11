@@ -1,0 +1,53 @@
+INSERT INTO dova7961.Automobilis VALUES(1234, 'Audi', 'A3', 2006, 'Pilka', 50.00) ;
+INSERT INTO dova7961.Automobilis VALUES(1542, 'BMW', 'E90', 2010, 'Sidabrine', 90.00) ;
+INSERT INTO dova7961.Automobilis VALUES(2001, 'BMW', 'E46', 2006, 'Raudona', 35.00) ;
+INSERT INTO dova7961.Automobilis VALUES(2003, 'BMW', 'E46', 2006, 'Zalia', 35.00) ;
+INSERT INTO dova7961.Automobilis VALUES(3005, 'Ford', 'Mustang', 2021, 'Juoda', 250.00) ;
+INSERT INTO dova7961.Automobilis VALUES(6005, 'Toyota', 'Prius', 2008, 'Pilka', 26.00) ;
+INSERT INTO dova7961.Automobilis VALUES(DEFAULT, 'Audi', 'A3', 2013, DEFAULT, 80.00) ;
+INSERT INTO dova7961.Automobilis VALUES(DEFAULT, 'Audi', 'A1', 2002, 'Geltona', 30.00) ;
+INSERT INTO dova7961.Automobilis VALUES(DEFAULT, 'Audi', 'Q3', 2011, 'Pilka', 50.00) ;
+INSERT INTO dova7961.Automobilis VALUES(DEFAULT, 'Audi', 'Q5', 2022, 'Raudona', 280.00) ;
+INSERT INTO dova7961.Automobilis VALUES(DEFAULT, 'Audi', 'Q7', 2012, DEFAULT, 110.00) ;
+
+INSERT INTO dova7961.Klientas VALUES(203, '50101010222', 'Jonas', 'Jonaitis', '+37061122009') ;
+INSERT INTO dova7961.Klientas VALUES(204, '39902200102', 'Algimantas', 'Algintaitis', '+37062154851') ;
+INSERT INTO dova7961.Klientas VALUES(205, '49906301011', 'Maryte', 'Antanaviciute', '+37063312592') ;
+INSERT INTO dova7961.Klientas VALUES(201, '49911300131', 'Aldona', 'Bosaite', '+37065896254') ;
+INSERT INTO dova7961.Klientas VALUES(221, '39905301031', 'Jonas', 'Kaziulis', '+37061122022') ;
+
+INSERT INTO dova7961.Nuomos_sutartis VALUES(12, 1234, 203, '2024-02-08', '2024-03-01') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(11, 1234, 204, '2024-05-01', '2024-05-06') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(30, 1542, 204, '2024-05-02', '2024-05-05') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(35, 1234, 205, '2024-05-01', '2024-05-06') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(15, 2001, 204, '2024-05-01', '2024-05-06') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(62, 1542, 201, '2024-05-04', '2024-05-08') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(10, 2003, 201, '2024-05-04', '2024-05-08') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(55, 2001, 205, '2024-01-25', '2024-02-15') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(44, 3005, 221, '2024-03-09', '2024-03-25') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(31, 6005, 204, '2024-05-02', '2024-05-05') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(32, 6005, 205, '2024-05-01', '2024-05-06') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(33, 6005, 204, '2024-05-01', '2024-05-06') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(34, 3005, 201, '2024-05-04', '2024-05-08') ;
+INSERT INTO dova7961.Nuomos_sutartis VALUES(36, 3005, 221, '2024-05-04', '2024-05-08') ;
+
+INSERT INTO dova7961.Draudimas VALUES(31566, 62, 303485437, 'Standartinis', 32.99) ;
+INSERT INTO dova7961.Draudimas VALUES(30000, 15,300060000, 'Papildomas', 50.66) ;
+INSERT INTO dova7961.Draudimas VALUES(20216, NULL, 303485437, 'Kasko', 109.95) ;
+INSERT INTO dova7961.Draudimas VALUES(31544, 44, 303485437, 'Kasko', 89.36) ;
+INSERT INTO dova7961.Draudimas VALUES(41504, 11, 303485437, DEFAULT, 45.21) ;
+INSERT INTO dova7961.Draudimas VALUES(11111, 31, 355555444, 'Standartinis', 32.99) ;
+INSERT INTO dova7961.Draudimas VALUES(44444, 32,355555444, 'Papildomas', 50.66) ;
+INSERT INTO dova7961.Draudimas VALUES(22222, 33, 333333333, 'Kasko', 109.95) ;
+
+INSERT INTO dova7961.Draudejas VALUES(303485437, 'Debesu draudimas', '+370644348282') ;
+INSERT INTO dova7961.Draudejas VALUES(303341878, 'Lietuvos draudimas', '+370644659616') ;
+INSERT INTO dova7961.Draudejas VALUES(300060000, 'Draudu drauda', '+370646310107') ;
+INSERT INTO dova7961.Draudejas VALUES(300061111, 'Apdrauda', '+370646311111') ;
+INSERT INTO dova7961.Draudejas VALUES(311160000, 'Draudimelis', '+370642548887') ;
+INSERT INTO dova7961.Draudejas VALUES(333333333, 'Buk suagus', '+370646555555') ;
+INSERT INTO dova7961.Draudejas VALUES(355555444, 'Draudejai', '+370666666666') ;
+
+
+
+
